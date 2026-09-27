@@ -1,0 +1,152 @@
+﻿[
+  {
+    "incident_id": "EVAL-001",
+    "type": "database_failure",
+    "cpu": 55,
+    "memory": 62,
+    "error_rate": 35,
+    "latency_ms": 3000,
+    "logs": [
+      "Database connection timeout",
+      "Connection pool exhausted",
+      "Failed to execute database query"
+    ],
+    "expected_root_cause": "Database connection pool exhaustion",
+    "expected_runbook": "database_failure.md"
+  },
+  {
+    "incident_id": "EVAL-002",
+    "type": "high_cpu",
+    "cpu": 94,
+    "memory": 58,
+    "error_rate": 4,
+    "latency_ms": 850,
+    "logs": [
+      "CPU utilization exceeded threshold",
+      "Application worker consuming high CPU",
+      "Request processing time increased"
+    ],
+    "expected_root_cause": "High CPU utilization",
+    "expected_runbook": "high_cpu.md"
+  },
+  {
+    "incident_id": "EVAL-003",
+    "type": "memory_exhaustion",
+    "cpu": 72,
+    "memory": 97,
+    "error_rate": 18,
+    "latency_ms": 1900,
+    "logs": [
+      "Memory usage exceeded threshold",
+      "OutOfMemory warning",
+      "Application memory allocation failed"
+    ],
+    "expected_root_cause": "Memory exhaustion",
+    "expected_runbook": "memory_exhaustion.md"
+  },
+  {
+    "incident_id": "EVAL-004",
+    "type": "api_latency",
+    "cpu": 68,
+    "memory": 61,
+    "error_rate": 8,
+    "latency_ms": 5200,
+    "logs": [
+      "Payment API latency increased",
+      "Request processing time exceeded threshold",
+      "Slow API responses detected"
+    ],
+    "expected_root_cause": "API latency",
+    "expected_runbook": "api_latency.md"
+  },
+  {
+    "incident_id": "EVAL-005",
+    "type": "s3_failure",
+    "cpu": 51,
+    "memory": 59,
+    "error_rate": 22,
+    "latency_ms": 1100,
+    "logs": [
+      "S3 request failed",
+      "Unable to retrieve object from S3",
+      "S3 service request error"
+    ],
+    "expected_root_cause": "S3 access or service failure",
+    "expected_runbook": "s3_failure.md"
+  },
+  {
+    "incident_id": "EVAL-006",
+    "type": "database_failure",
+    "cpu": 61,
+    "memory": 64,
+    "error_rate": 42,
+    "latency_ms": 4100,
+    "logs": [
+      "Database connection timeout",
+      "Connection pool exhausted",
+      "Database query failed"
+    ],
+    "expected_root_cause": "Database connection pool exhaustion",
+    "expected_runbook": "database_failure.md"
+  },
+  {
+    "incident_id": "EVAL-007",
+    "type": "high_cpu",
+    "cpu": 91,
+    "memory": 63,
+    "error_rate": 5,
+    "latency_ms": 900,
+    "logs": [
+      "CPU utilization exceeded threshold",
+      "CPU-intensive operation detected",
+      "Application worker consuming high CPU"
+    ],
+    "expected_root_cause": "High CPU utilization",
+    "expected_runbook": "high_cpu.md"
+  },
+  {
+    "incident_id": "EVAL-008",
+    "type": "memory_exhaustion",
+    "cpu": 75,
+    "memory": 95,
+    "error_rate": 21,
+    "latency_ms": 2100,
+    "logs": [
+      "Memory usage exceeded threshold",
+      "OutOfMemory warning",
+      "Memory allocation failed"
+    ],
+    "expected_root_cause": "Memory exhaustion",
+    "expected_runbook": "memory_exhaustion.md"
+  },
+  {
+    "incident_id": "EVAL-009",
+    "type": "api_latency",
+    "cpu": 64,
+    "memory": 57,
+    "error_rate": 6,
+    "latency_ms": 4800,
+    "logs": [
+      "Payment API latency increased",
+      "Slow API responses detected",
+      "Request processing time increased"
+    ],
+    "expected_root_cause": "API latency",
+    "expected_runbook": "api_latency.md"
+  },
+  {
+    "incident_id": "EVAL-010",
+    "type": "s3_failure",
+    "cpu": 53,
+    "memory": 60,
+    "error_rate": 19,
+    "latency_ms": 1250,
+    "logs": [
+      "S3 request failed",
+      "Unable to retrieve object from S3",
+      "S3 object access error"
+    ],
+    "expected_root_cause": "S3 access or service failure",
+    "expected_runbook": "s3_failure.md"
+  }
+]

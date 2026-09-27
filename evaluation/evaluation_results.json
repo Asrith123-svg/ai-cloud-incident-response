@@ -1,0 +1,111 @@
+{
+    "evaluation_summary": {
+        "total_incidents": 10,
+        "retrieval_correct": 10,
+        "retrieval_incorrect": 0,
+        "retrieval_accuracy_percent": 100.0,
+        "average_retrieval_time_seconds": 0.0586
+    },
+    "results": [
+        {
+            "incident_id": "EVAL-001",
+            "type": "database_failure",
+            "expected_runbook": "database_failure.md",
+            "retrieved_runbooks": [
+                "database_failure.md"
+            ],
+            "retrieval_correct": true,
+            "retrieval_time_seconds": 0.1174
+        },
+        {
+            "incident_id": "EVAL-002",
+            "type": "high_cpu",
+            "expected_runbook": "high_cpu.md",
+            "retrieved_runbooks": [
+                "high_cpu.md"
+            ],
+            "retrieval_correct": true,
+            "retrieval_time_seconds": 0.1094
+        },
+        {
+            "incident_id": "EVAL-003",
+            "type": "memory_exhaustion",
+            "expected_runbook": "memory_exhaustion.md",
+            "retrieved_runbooks": [
+                "memory_exhaustion.md"
+            ],
+            "retrieval_correct": true,
+            "retrieval_time_seconds": 0.1311
+        },
+        {
+            "incident_id": "EVAL-004",
+            "type": "api_latency",
+            "expected_runbook": "api_latency.md",
+            "retrieved_runbooks": [
+                "api_latency.md"
+            ],
+            "retrieval_correct": true,
+            "retrieval_time_seconds": 0.0669
+        },
+        {
+            "incident_id": "EVAL-005",
+            "type": "s3_failure",
+            "expected_runbook": "s3_failure.md",
+            "retrieved_runbooks": [
+                "s3_failure.md"
+            ],
+            "retrieval_correct": true,
+            "retrieval_time_seconds": 0.0392
+        },
+        {
+            "incident_id": "EVAL-006",
+            "type": "database_failure",
+            "expected_runbook": "database_failure.md",
+            "retrieved_runbooks": [
+                "database_failure.md"
+            ],
+            "retrieval_correct": true,
+            "retrieval_time_seconds": 0.0309
+        },
+        {
+            "incident_id": "EVAL-007",
+            "type": "high_cpu",
+            "expected_runbook": "high_cpu.md",
+            "retrieved_runbooks": [
+                "high_cpu.md"
+            ],
+            "retrieval_correct": true,
+            "retrieval_time_seconds": 0.0233
+        },
+        {
+            "incident_id": "EVAL-008",
+            "type": "memory_exhaustion",
+            "expected_runbook": "memory_exhaustion.md",
+            "retrieved_runbooks": [
+                "memory_exhaustion.md"
+            ],
+            "retrieval_correct": true,
+            "retrieval_time_seconds": 0.0236
+        },
+        {
+            "incident_id": "EVAL-009",
+            "type": "api_latency",
+            "expected_runbook": "api_latency.md",
+            "retrieved_runbooks": [
+                "api_latency.md"
+            ],
+            "retrieval_correct": true,
+            "retrieval_time_seconds": 0.0208
+        },
+        {
+            "incident_id": "EVAL-010",
+            "type": "s3_failure",
+            "expected_runbook": "s3_failure.md",
+            "retrieved_runbooks": [
+                "s3_failure.md"
+            ],
+            "retrieval_correct": true,
+            "retrieval_time_seconds": 0.0236
+        }
+    ]
+}

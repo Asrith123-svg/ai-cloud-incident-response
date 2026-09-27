@@ -1,0 +1,41 @@
+[
+    {
+        "incident_id": "INC-001",
+        "service": "payment-api",
+        "cpu": 92,
+        "memory": 60,
+        "error_rate": 3,
+        "latency_ms": 700,
+        "logs": [
+            "CPU utilization exceeded threshold",
+            "Request processing time increased",
+            "Application worker consuming high CPU"
+        ]
+    },
+    {
+        "incident_id": "INC-002",
+        "service": "payment-api",
+        "cpu": 55,
+        "memory": 62,
+        "error_rate": 35,
+        "latency_ms": 3000,
+        "logs": [
+            "Database connection timeout",
+            "Connection pool exhausted",
+            "Failed to execute database query"
+        ]
+    },
+    {
+        "incident_id": "INC-003",
+        "service": "payment-api",
+        "cpu": 70,
+        "memory": 96,
+        "error_rate": 15,
+        "latency_ms": 1800,
+        "logs": [
+            "Memory usage exceeded threshold",
+            "OutOfMemory warning",
+            "Application memory allocation failed"
+        ]
+    }
+]
